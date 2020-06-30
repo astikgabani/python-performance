@@ -9,7 +9,7 @@ import time
 def string_compare_simple(n):
     a = "Hey there, this is testing string" * 300
     b = "Hey there, this is testing string" * 300
-    for i in range(n):
+    for _ in range(n):
         if a == b:
             pass
 
@@ -17,7 +17,7 @@ def string_compare_simple(n):
 def string_compare_with_interning(n):
     a = sys.intern("Hey there, this is testing string" * 300)
     b = sys.intern("Hey there, this is testing string" * 300)
-    for i in range(n):
+    for _ in range(n):
         if a is b:
             pass
 
