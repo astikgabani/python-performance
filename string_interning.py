@@ -1,5 +1,17 @@
 """
 Whenever we need to compare a lot of strings. We can use the interning concepts of python.
+
+::::: OUTPUT :::::
+
+$ python string_interning.py 
+---------------------------------------
+simple_string comparison
+time : 13.766726799999999
+---------------------------------------
+interning string comparison
+time : 0.7635757999999999
+---------------------------------------
+
 """
 
 import sys
